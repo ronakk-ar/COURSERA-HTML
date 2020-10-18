@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color:#f0f0f0;
+	margin: 20px;
+}
+
+h1 {
+	margin: 35px;
+	text-align : center;
+	font-size: 175%;
+}
+
+h2 {
+	position: relative;
+	float: right;
+	padding: 5px;
+	font-size: 125%;
+}
+
+p {
+	padding: 10px;
+	clear: right;
+	font-size: 16px;
+}
+
+.interior {
+	margin: 20px;
+	border: 1px solid black;
+	background-color: #9fa9a3;
+}
+
+#p1 {
+	border: 1px solid black;
+	background-color:  #e06377;
+}
+
+#p2 {
+	border: 1px solid black;
+	background-color: #96897f;
+}
+
+#p3 {
+	border: 1px solid black;
+	background-color: #77a8a8;
+}
+
+.row {
+	width: 100%;
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+	}
+	.col-md-12 {
+    width: 100%;
+    float: left;
+	}
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
